@@ -1,0 +1,125 @@
+/**Header**/
+#container {
+    margin-left:20px;
+}
+#header-nav {
+    background-color: #999999;
+    border-radius: 0;
+    border: 2px solid black;
+    margin-left: -2px;
+    margin-right: -2px;
+}
+.navbar-brand {
+    padding-top:25px;
+    height: 80px;
+    box-sizing: border-box;
+    padding-top:25px;
+    padding-left:15px;
+}
+.navbar-brand h1{
+    font-size:1.7em;
+    margin-top:0;
+    color: #000000;
+    font-weight: bold;
+}
+#header{
+    position:relative;
+}
+/**Main Content**/
+#box{
+    box-sizing: border-box;
+    margin-left:1vw;
+    margin-right:1vw;
+    width:97.65%;
+}
+h2 {
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+#menu {
+    background-color: #999999;
+}
+h3 {
+    margin-top: 7px;
+    margin-bottom:12px;
+    font-weight: bold;
+}
+p {
+    font-weight: bold;
+}
+
+@media (max-width: 767px){
+    /**Header**/
+    #container {
+        margin-left:0px;
+    }
+    .navbar-brand {
+        padding-left:30px;
+        height:70px;
+        padding-top: 15px;
+        margin-left:20px;
+    }
+    .navbar-brand h1{
+        margin-bottom: 0;
+    }
+    /** Collapsable nav**/
+    #toggle {
+        position: absolute;
+        top:.4vw;
+        right:1vw;
+        height:70%;
+        padding: 0 0 0 5px;
+        width:55px;
+        border: 2px solid black;
+        color:#999999;
+    }
+    #collapsable-nav {
+        background-color: white;
+        border:1px solid #000000;
+        padding:0;
+    }
+    #nav-list{
+        margin:0;
+    }
+    li {
+        text-align: center;
+    }
+    li p {
+        margin-top: 5px;
+        margin-bottom:5px;
+    }
+    li hr {
+        margin:0;
+        background-color: black;
+        height:2px;
+        width:100%;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: black;
+        height:5px;
+        width:90%;
+        margin-top:5px;
+    }
+    .navbar-default .navbar-toggle:focus {
+        background-color: #999999;
+    }
+    #toggle:focus {
+        border: 2px solid #DCDCDC;
+    }
+    .navbar-toggle:focus .icon-bar {
+        background-color: #DCDCDC;
+    }
+    #top-icon {
+        margin-top: 0;
+    }
+    /**content**/
+    #box {
+        box-sizing: border-box;
+        width:70%;
+        margin-left:15vw;
+        margin-right:15vw;
+    }
+    h2 {
+        margin-bottom:30px;
+    }
+}
